@@ -1,0 +1,7 @@
+# Use this crontab to specify what script should be executed to check container
+# activity, and how often it should run.
+
+# By default, it executes the /opt/sd_client Python script every 10 minutes
+
+# m h  dom mon dow   command
+*/10 * * * * /opt/sd_client.py
